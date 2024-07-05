@@ -1,6 +1,6 @@
 # Andrei Valynka
 
-## 
+## Contacts
 * **mobile:** +48730191986 
 * **email:** valynkoandrei@gmail.com
 
@@ -18,13 +18,13 @@ snowboarding in winter.
 
 ## Devops Engineer
 
-## Примеры кода
+## Code block
 ```javascript
 console.log("Hello, world!");
 ```
 
 ## 5 years
 
-## BSUIR, Minsk
+## Bachelor's degree, BSUIR, Minsk
 
 ## English level is A2
