@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css" />
         <title>My CV</title>
     </head>
     <body>
@@ -11,28 +12,30 @@
             <h1>My CV</h1>
         </header>
         <main>
-            <section>
-                <h2>Personal Information</h2>
-                <p>Name: Andrei Valynka</p>
-                <p>Age: 28</p>
-                <p>Location: Warsaw, Poland</p>
-            </section>
-            <section>
-                <h2>Education</h2>
-                <p>University: BSUIR</p>
-                <p>Year of graduation: 2017</p>
-            </section>
-            <section>
-                <h2>Work Experience</h2>
-                <p>Company: Intergiro</p>
-                <p>Position: DevOps</p>
-            </section>
-            <section>
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
+            <section class="about">
+                 <img class="main-foto" src="./img/foto.jpg" alt="cv-photo">
+               <div>
+                <div>Andrei Valynka</div> 
+                <div>DevOps</div> 
+               </div>
+               <div>
+                Contact information:
+                <ul class="about-contacts"> 
+                    <li class="about-contacts-location"><img src="./img/location.svg" alt="location-icon"> Warsaw, Poland</li>
+                    <li>phone: <a href="tel: +48730191986">+48730191986</a></li>
+                    <li>email: <a href="mailto: valynkoandrei@gmail.com">valynkoandrei@gmail.com</a></li>
                 </ul>
+                </div>
+            </section>
+            <section class="info">
+                <div class="info-details">
+                    <div class="info-details-experience">
+                        <div>EXPERIENCE</div>
+                    </div>
+                    <div class="info-details-about_me">
+                        <div>ABOUT ME</div>
+                    </div>
+                </div>
             </section>
         </main>
         <footer>
